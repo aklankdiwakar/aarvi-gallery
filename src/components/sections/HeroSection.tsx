@@ -12,7 +12,7 @@ export const HeroSection = () => {
             </div>
             
             {/* Title - Centered */}
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-tight tracking-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight tracking-tight">
               Aarvi's Moments
             </h1>
             
@@ -35,15 +35,15 @@ export const HeroSection = () => {
             <div className="pt-16 sm:pt-24 w-full flex justify-center">
               <div className="grid grid-cols-3 gap-12 sm:gap-24 lg:gap-32">
                 <div className="text-center space-y-3">
-                  <div className="text-6xl sm:text-7xl lg:text-8xl font-black">100+</div>
+                  <div className="text-5xl sm:text-6xl lg:text-7xl font-black">100+</div>
                   <p className="text-slate-300 text-sm sm:text-base font-medium tracking-wide">PHOTOS</p>
                 </div>
                 <div className="text-center space-y-3">
-                  <div className="text-6xl sm:text-7xl lg:text-8xl font-black">5K+</div>
+                  <div className="text-5xl sm:text-6xl lg:text-7xl font-black">5K+</div>
                   <p className="text-slate-300 text-sm sm:text-base font-medium tracking-wide">MEMORIES</p>
                 </div>
                 <div className="text-center space-y-3">
-                  <div className="text-6xl sm:text-7xl lg:text-8xl">❤️</div>
+                  <div className="text-5xl sm:text-6xl lg:text-7xl">❤️</div>
                   <p className="text-slate-300 text-sm sm:text-base font-medium tracking-wide">SMILES</p>
                 </div>
               </div>

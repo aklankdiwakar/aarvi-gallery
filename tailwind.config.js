@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Poppins', 'sans-serif'],
+    },
     extend: {
+      fontWeight: {
+        'thin': 200,
+        'light': 200,
+        'normal': 200,
+        'medium': 200,
+        'semibold': 200,
+        'bold': 200,
+        'extrabold': 200,
+        'black': 200,
+      },
       colors: {
         'primary': '#000000',
         'secondary': '#F0F0F0',
