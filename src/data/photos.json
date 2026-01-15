@@ -1,0 +1,78 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "title": "Beautiful Smile",
+      "src": "/images/gallery/00bc4675-465d-47d9-aaae-44591d77851d.jpg",
+      "thumbnail": "/images/gallery/00bc4675-465d-47d9-aaae-44591d77851d-thumb.jpg",
+      "date": "2026-01-15",
+      "category": "special-moments",
+      "alt": "Aarvi with beautiful smile",
+      "width": 732,
+      "height": 1200,
+      "likes": 0,
+      "description": "A beautiful moment capturing Aarvi's precious smile"
+    },
+    {
+      "id": 2,
+      "title": "Playful Moment",
+      "src": "/images/gallery/26397327-4489-4a10-8809-becbd4007416.jpg",
+      "thumbnail": "/images/gallery/26397327-4489-4a10-8809-becbd4007416-thumb.jpg",
+      "date": "2026-01-15",
+      "category": "special-moments",
+      "alt": "Aarvi in a playful moment",
+      "width": 675,
+      "height": 1200,
+      "likes": 0,
+      "description": "Aarvi enjoying a playful and joyful moment"
+    },
+    {
+      "id": 3,
+      "title": "Happy Days",
+      "src": "/images/gallery/2e37ef2b-5ee7-4a54-87b2-60582cad4a1a.jpg",
+      "thumbnail": "/images/gallery/2e37ef2b-5ee7-4a54-87b2-60582cad4a1a-thumb.jpg",
+      "date": "2026-01-15",
+      "category": "special-moments",
+      "alt": "Aarvi happy days",
+      "width": 675,
+      "height": 1200,
+      "likes": 0,
+      "description": "One of those perfect happy days we cherish"
+    },
+    {
+      "id": 4,
+      "title": "Sweet Memories",
+      "src": "/images/gallery/47676f62-fb06-45ad-aa10-c441627672ad.jpg",
+      "thumbnail": "/images/gallery/47676f62-fb06-45ad-aa10-c441627672ad-thumb.jpg",
+      "date": "2026-01-15",
+      "category": "special-moments",
+      "alt": "Sweet memory with Aarvi",
+      "width": 675,
+      "height": 1200,
+      "likes": 0,
+      "description": "Sweet memories that will last forever"
+    },
+    {
+      "id": 5,
+      "title": "Precious Moment",
+      "src": "/images/gallery/c029f032-8449-448f-8c97-3db4a1930f01.jpg",
+      "thumbnail": "/images/gallery/c029f032-8449-448f-8c97-3db4a1930f01-thumb.jpg",
+      "date": "2026-01-15",
+      "category": "special-moments",
+      "alt": "Precious moment with Aarvi",
+      "width": 553,
+      "height": 1200,
+      "likes": 0,
+      "description": "A truly precious moment captured forever"
+    }
+  ],
+  "metadata": {
+    "totalPhotos": 5,
+    "categories": [
+      "outdoor",
+      "indoor",
+      "special-moments"
+    ],
+    "lastUpdated": "2026-01-15"
+  }
+}
