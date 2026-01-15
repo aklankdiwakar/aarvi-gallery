@@ -28,7 +28,7 @@ export const Modal = ({ isOpen, onClose, children, title }: ModalProps) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
-      <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-auto relative">
+      <div className="bg-white rounded-lg shadow-xl max-w-6xl w-full max-h-[95vh] overflow-auto relative">
         {/* Close Button - Always visible */}
         <button
           onClick={onClose}

@@ -45,13 +45,13 @@ export const Lightbox = ({
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <div className="flex flex-col lg:flex-row gap-6">
+      <div className="flex flex-col lg:flex-row gap-8">
         {/* Image Section */}
-        <div className="flex-1 relative bg-gray-100 rounded-lg overflow-hidden">
+        <div className="flex-1 relative bg-gray-100 rounded-lg overflow-hidden min-h-[500px] lg:min-h-[600px]">
           <img
             src={photo.src}
             alt={photo.alt}
-            className="w-full h-auto max-h-[70vh] object-contain"
+            className="w-full h-full max-h-[80vh] object-contain"
           />
           
           {/* Navigation Buttons */}
@@ -74,18 +74,18 @@ export const Lightbox = ({
         </div>
 
         {/* Info Section */}
-        <div className="lg:w-80 flex flex-col">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">{photo.title}</h2>
+        <div className="lg:w-96 flex flex-col flex-shrink-0">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">{photo.title}</h2>
           
-          <div className="flex items-center space-x-4 text-sm text-gray-600 mb-4">
-            <span className="capitalize px-3 py-1 bg-gray-100 rounded-full">{photo.category}</span>
-            <span>{photo.date}</span>
+          <div className="flex items-center space-x-4 text-sm text-gray-600 mb-6">
+            <span className="capitalize px-4 py-2 bg-gray-100 rounded-full font-semibold">{photo.category}</span>
+            <span className="font-medium">{photo.date}</span>
           </div>
 
-          <p className="text-gray-700 mb-6 leading-relaxed">{photo.description}</p>
+          <p className="text-gray-700 mb-8 leading-relaxed text-base">{photo.description}</p>
 
           {/* Image Details */}
-          <div className="bg-gray-50 rounded-lg p-4 mb-6">
+          <div className="bg-gray-50 rounded-lg p-5 mb-8 border border-gray-200">
             <p className="text-sm text-gray-600 mb-2">
               <span className="font-semibold">Dimensions:</span> {photo.width} × {photo.height}
             </p>
@@ -95,20 +95,20 @@ export const Lightbox = ({
           <div className="space-y-3 mb-6">
             <button
               onClick={handleLike}
-              className="w-full flex items-center justify-center space-x-2 bg-red-50 hover:bg-red-100 text-red-600 py-3 rounded-lg transition-colors font-medium"
+              className="w-full flex items-center justify-center space-x-2 bg-red-50 hover:bg-red-100 text-red-600 py-3 rounded-lg transition-colors font-semibold text-base"
             >
               <Heart
-                size={20}
+                size={22}
                 className={isLiked ? 'fill-red-600' : ''}
               />
               <span>{photo.likes + (isLiked ? 1 : 0)} Likes</span>
             </button>
-            <button className="w-full flex items-center justify-center space-x-2 bg-blue-50 hover:bg-blue-100 text-blue-600 py-3 rounded-lg transition-colors font-medium">
-              <MessageCircle size={20} />
+            <button className="w-full flex items-center justify-center space-x-2 bg-blue-50 hover:bg-blue-100 text-blue-600 py-3 rounded-lg transition-colors font-semibold text-base">
+              <MessageCircle size={22} />
               <span>Comment</span>
             </button>
-            <button className="w-full flex items-center justify-center space-x-2 bg-green-50 hover:bg-green-100 text-green-600 py-3 rounded-lg transition-colors font-medium">
-              <Share2 size={20} />
+            <button className="w-full flex items-center justify-center space-x-2 bg-green-50 hover:bg-green-100 text-green-600 py-3 rounded-lg transition-colors font-semibold text-base">
+              <Share2 size={22} />
               <span>Share</span>
             </button>
           </div>
